@@ -1,0 +1,877 @@
+/*....head....*/
+
+
+/*--------------------------------------------------------------*/
+
+/*....body....*/
+
+body {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #181818 !important;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*.... tags ....*/
+
+h2 {
+  display: inline-block;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 10px;
+  width: 1000px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+/*--------------------------------------------------------------*/
+
+/*---menu btn------*/
+
+#hamburger{
+  z-index:15 ;
+  position: absolute;
+  top:50px;
+  right:50px;
+  height:70px;
+  width:70px;
+  background:transparent;
+  border: transparent;
+  cursor:pointer;
+  background-color: transparent;
+}
+
+.fs{
+  display: inline-block;
+  width:40px;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.ss{
+  position: relative;
+  bottom: 10px;
+  display:inline-block;
+  width:30px;
+  background-color: #fff;
+  border: 2px solid #fff;
+
+}
+
+.rotate1{
+  transform: rotate(65deg);
+
+}
+.rotate2{
+  width: 40px;
+  transform: rotate(-35deg);
+
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*....nav bar....*/
+
+
+.topsection{
+  display: none;
+  width: 100%;
+  height: 1100px;
+  background-color:	  darkolivegreen;
+  position: fixed;
+  z-index:12;
+  text-align: start;
+
+}
+.ul-list{
+  height: 100%;
+  list-style-type: none;
+}
+
+.ul-list li{
+  width: 80%;
+  position: relative;
+  top:200px;
+  left: 200px;
+
+}
+.ul-list li:hover{
+  transition: 0.8s;
+  background-color:#181818 ;
+
+}
+
+.x{
+  position: relative;
+  left:10px;
+  font-size: 4rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.x:hover{
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*....top bar....*/
+.top{
+  text-align: start;
+  width: 100%;
+  height: 1100px;
+
+}
+.t-a{
+  display: inline-block;
+  position: relative;
+  font-size: 60px;
+  color:#fff;
+  font-family:sans-serif;
+
+}
+
+.top-nm {
+  display: inline-block;
+  position: relative;
+  top:250px;
+  left: 300px;
+  height: 500px;
+  width: 700px;
+  z-index: 10;
+  margin: 0;
+  position: relative;
+  background-color:transparent;
+
+}
+/* .bc-img{
+  margin:0;
+  padding: 0;
+  width: 1400px;
+  height: 1080px;
+  background-size: contain;
+  position: absolute;
+  right: 0%;
+  top:0%;
+
+} */
+
+.top-name {
+  width: 600px;
+  height: 150px;
+  margin: auto;
+  display: inline-block;
+  font-size: 100px;
+  color:#fff;
+  position: relative;
+  font-family:'Kiwi Maru', sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.top-name:hover {
+  transition: 0.7s;
+  color:rgb(207, 39, 39);
+}
+
+.head-p {
+  position: relative;
+  height: 50px;
+  width: 300px;
+  color:#fff;
+}
+.scrdwn{
+  font-size: 20px;
+  position: absolute;
+  left:0%;
+  top:920px;
+  font-family: sans-serif;
+  color: darkolivegreen;
+  transform: rotate(90deg);
+}
+.ctn-head{
+  position: relative;
+  top:10px;
+  padding: 13px 30px;
+  background-color: rgb(141, 30, 30);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.ctn-head:hover{
+  background-color: aquamarine;
+
+}
+
+/*--------------------------------------------------------------*/
+
+/*.... Social Links ....*/
+
+.bottom-container {
+  height: 400px;
+  width: 5%;
+  margin: 0;
+  display: block;
+  line-height: 2;
+  position: relative;
+  left: 2000px;
+
+}
+.bottom-container:hover {
+  color: #707070;
+}
+
+.footer-link {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+}
+.footer-link:hover {
+  color: aquamarine;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*.... profile ....*/
+
+#profile {
+  margin: 0;
+  padding: 50px 0 400px 100px;
+  background-color: #202020;
+  color: #808080;
+  line-height: 2;
+  padding-bottom: 130px;
+}
+
+.abt-me{
+  padding-left: 20px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  right: 800px;
+  top:30px;
+  border-left:3px solid aqua ;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.abt-me:hover{
+  transition: 0.5s;
+  color: aqua;
+  border-left:3px solid grey ;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.mypic {
+  margin: 0;
+  padding: 10px 10px 0 0;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  box-shadow: 10px 10px 20px rgb(17, 57, 102);
+  border-radius: 50%;
+  border: 3px solid #181818;
+  cursor: pointer;
+}
+
+.nm-h3 {
+  font-family:'Kiwi Maru', sans-serif;
+  display: inline-block;
+  font-size: 40px;
+  height: 50px;
+  position: relative;
+  bottom: 210px;
+  right: 140px;
+  cursor: pointer;
+  color: rgb(13, 97, 97);
+}
+
+.sec-2{
+  height: 500px;
+  width: 1100px;
+  display: inline-block;
+  position: relative;
+  top:30px
+}
+
+.intro {
+  margin-left: 3px;
+  position: relative;
+  top: 15px;
+  text-align: start;
+}
+.resume{
+
+  position:relative;
+  top:100px;
+  right: 400px;
+  padding:20px 20px;
+  color:white;
+  border:1px solid white;
+  border-radius:10px;
+  background-color:none;
+  text-decoration: none!important;
+
+}
+
+.resume:hover{
+  color:#fff;
+  box-shadow: 10px 10px 20px rgb(17, 57, 102);
+  background-color:#383838;
+
+}
+
+/*--------------------------------------------------------------*/
+
+.edu-me{
+  padding-left: 20px;
+  height: 100px;
+  display: inline-block;
+  position:absolute;
+  right: 770px;
+  color: grey;
+  top:30px;
+  border-left:3px solid aqua ;
+  border-radius: 5px;
+  z-index: 5;
+  transition: 0.8s;
+}
+.edu-me:hover{
+  transition: 0.5s;
+  color:aqua;
+  border-left:3px solid grey ;
+  border-radius: 6px;
+  cursor: pointer;
+
+}
+.edu-me1{
+  display: inline-block;
+  position: absolute;
+  z-index: 5;
+}
+
+
+
+/*.... skills ....*/
+.csk{
+  position: relative;
+  padding-top: 130px;
+  background-color: #212121;
+
+}
+
+#skills {
+  margin: 0;
+  padding: 2px 0 106px 0;
+  background-color: #212121;
+  color: #808080;
+  text-align: center;
+}
+
+.h2-skill {
+  margin-top: 100px;
+  margin-left: 30px;
+  font-size: 1.9rem;
+  color:white;
+}
+.em {
+  margin: 20px 0 10px 0;
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 31.25rem;
+  text-align: center;
+  color:white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.pr-j {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 400px;
+  border-radius:10px;
+  border-right: solid 200px rgb(56, 51, 51);
+
+}
+
+.pr-s {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 250px;
+  border-radius:10px;
+  border-right: solid 350px rgb(56, 51, 51);
+}
+
+.pr-j2 {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 200px;
+  border-radius:10px;
+  border-right: solid 400px rgb(56, 51, 51);
+}
+
+.pr-h {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 450px;
+  border-radius:10px;
+  border-right: solid 150px rgb(56, 51, 51);
+}
+
+.pr-c {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 400px;
+  border-radius:10px;
+  border-right: solid 200px rgb(56, 51, 51);
+}
+
+.pr-js {
+  margin:0;
+  height:25px;
+  background-color:rgb(70, 69, 69);
+  line-height: 5;
+  padding-top: 20px;
+  padding-right: 300px;
+  border-radius:10px;
+  border-right: solid 300px rgb(56, 51, 51);
+}
+
+.skill-row {
+  padding: 100px;
+}
+
+.next-round{
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  position: relative;
+  left:800px;
+  top:350px;
+  color: white;
+  font-size: 70px;
+  background-color:none;
+  border-radius:50%;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*.... Education ....*/
+.eudcation{
+  margin: 0;
+  padding:0 0 151px;
+  background-color:#212121;
+
+}
+
+.edu{
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color:white;
+  line-height:2;
+  display: inline-block;
+
+
+}
+
+.clg-name{
+  display: inline-block;
+  padding-bottom:20px;
+  color:white;
+  text-align:start;
+}
+
+.qn{
+  display: inline-block;
+  padding-bottom:20px;
+  color:rgb(235, 221, 221);
+text-align:start;
+
+}
+
+.clg-info-a{
+  display: inline-block;
+padding-bottom:0;
+padding-left: 100px;
+padding-bottom: 300px;
+color:#808080;
+text-align:start;
+line-height:3;
+
+}
+.clg-info-b{
+  display: inline-block;
+padding-bottom:70px;
+padding-left: 100px;
+color:#808080;
+text-align:start;
+line-height:3;
+
+}
+
+
+
+/*--------------------------------------------------------------*/
+
+/*.... Training ....*/
+
+
+.Training{
+  margin: 0;
+  padding:0 0 378px;
+  display:block;
+  background-color:#212121;
+  text-align:center;
+}
+
+.trn{
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color:white;
+  line-height:2;
+  display: inline-block;
+
+
+}
+
+.qn{
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom:2px;
+  color:rgb(235, 221, 221);
+text-align:start;
+
+}
+.qn::after{
+  content:'';
+  width:0%;
+  height: 3px;
+  background:aqua;
+  display: block;
+  margin: auto;
+  transition:0.5s;
+
+
+}
+
+.qn:hover::after{
+  width: 100%;
+}
+
+.info-a{
+  display: inline-block;
+padding-left: 0;
+padding-bottom: 50px;
+position:relative;
+bottom:200px;
+left:600px;
+color:#808080;
+text-align:start;
+line-height:3;
+
+}
+
+.java-i{
+  color:white;
+  text-align: start;
+  display: inline-block;
+  position: relative;
+  right:600px;
+  top:200px;
+  line-height: 3;
+}
+.i-j{
+  color: #808080;
+}
+
+.web-i{
+  color:white;
+  text-align: start;
+  display: inline-block;
+  position: relative;
+  right:400px;
+  top:200px;
+  line-height: 3;
+}
+.i-w{
+  color: #808080;
+}
+.j-i{
+position: relative;
+right:50px;
+}
+.w-i{
+position: relative;
+right:75px;
+}
+
+
+
+/*-------------------------------------------------------------*/
+
+/*.... Section ....*/
+
+.section{
+  height: 700px;
+  padding-bottom: 800px;
+  background-color: #232323;
+
+
+}
+
+.sc-b{
+  position: relative;
+  top:200px;
+  left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  height: 350px;
+  width: 500px;
+  box-shadow: 10px 20px 50px rgb(17, 57, 102);
+  border-radius: 20px;
+  border: 2px solid grey;
+  cursor: pointer;
+  transition: 0.8s;
+  transform-style: preserve-3d;
+  background-color:#333232;;
+}
+
+.sc-b:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-box-back{
+
+  width: 480px;
+  position: relative;
+  bottom: 40px;
+   border:none;
+  border-radius: 20px;
+  background-color: #333232;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-box-back, .a{
+  position: relative;
+  bottom: 30px;
+  height: 250px;
+}
+
+.sc-b h2{
+  font-size: 25px;
+  position: relative;
+  top:150px;
+  color: #fff;
+}
+
+
+
+.h-top{
+  font-size: 2rem;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.h-second{
+  position: relative;
+  top:-70px;
+  left:-70px;
+  text-align: start;
+  display: inline-block;
+  color: rgb(134, 117, 98);
+}
+.h-third{
+  position: relative;
+  top:-10px;
+  color: rgb(134, 117, 98);
+}
+
+.list-section{
+  font-size: 1.3rem;
+  text-align: start;
+  position: relative;
+  color: grey;
+  position: relative;
+  left: -25px;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+.lsc{
+  position: relative;
+  left: -100px;
+  bottom: 50px;
+
+}
+.alist{
+  position: relative;
+  left: 20px;
+}
+.b-s{
+  position: relative;
+  text-align: start;
+  display: inline-block;
+}
+
+.hsc3{
+
+  position: relative;
+  right: 70px;
+}
+.hsc1{
+  position: relative;
+  right: 70px;
+}
+
+
+.ComputerProficiencysection{
+  background-color: #333232;
+  height: 350px;
+  width: 700px;
+
+
+}
+.ComputerProficiencysection h4{
+  position: relative;
+  top:150px;
+  color: #fff;
+
+}
+
+.b{
+  height: 300px;
+  background-color: #333232;;
+  position: relative;
+  bottom:35px;
+  left:50px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------*/
+
+
+/*.... contact me ....*/
+
+
+
+.copyrght {
+  margin: 0;
+  position: relative;
+  top:20px;
+  height: 100px;
+  width:100%;
+  color: #f5f0f0;
+}
+
+
+
+.copyright {
+  position: relative;
+  font-size: 20px;
+  color: #eaf6f6;
+}
+
+/*--------------------------------------------------------------*/
+/*.... media queries ....*/
+
+@media screen and (max-width: 767px) {
+ body{
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  z-index: -1;
+  display: inline-block;
+  text-align: center;
+  background-color: #383838;
+ }
+ .leftslide{
+   display: block;
+ }
+
+ #hamburger{
+   position:absolute;
+   left:20px;
+
+ }
+ ..topsection{
+   display: none;
+  width: 100%;
+  padding-bottom: 1000px;
+
+ }
+ .top{
+   position: fixed;
+   background-color: #181818;
+   height: 2000px;
+   z-index: 11;
+ }
+#home1{
+  position: fixed;
+  left:100px;
+  top:600px;
+}
+
+#bottom-container{
+  position: absolute;
+  left:200px;
+  top:1500px;
+  font-size: 10px;
+  height: 5px;
+  width: 500px;
+  display:inline-block;
+}
+.scrdwn{
+  position: absolute;
+  left:10px;
+  top:1700px;
+}
+/*--------------------------------------------------------------*/
